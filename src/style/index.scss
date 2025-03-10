@@ -1,4 +1,4 @@
-@import './mixins/main';
-@import 'reset';
+@use './mixins/main';
+@use 'reset';
 // Режим разработки
-@import 'dev';
+@use 'dev';

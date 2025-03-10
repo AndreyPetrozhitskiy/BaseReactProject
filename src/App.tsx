@@ -1,11 +1,11 @@
 import "@styleComponents/app.scss"
-import { resetGlobalSearch } from './Api/utils/utils'
+import { resetGlobalSearch } from './api/utils/utils'
+import Test from './components/test/Test'
 import HashRouter from './Router/Router'
 function App() {
   const routes = [
-    // { page: undefined, component: MainPage }, // главная страница, если hash-параметр "page" отсутствует
-    // { page: 'new-client', component: NewClientPage },
-    // { page: 'agent', component: AgentPage },
+    // { page: undefined, component: MainPage }, 
+    { page: undefined, component: Test },
   ]
   const start = async () => {
     await resetGlobalSearch()

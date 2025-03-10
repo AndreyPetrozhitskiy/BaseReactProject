@@ -5,5 +5,5 @@ import App from './App.tsx'
 createRoot(document.getElementById('client-container__custom')!).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )
